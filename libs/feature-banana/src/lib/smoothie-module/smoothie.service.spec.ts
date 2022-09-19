@@ -1,9 +1,11 @@
 import { Test } from '@nestjs/testing';
 import { SmoothieModule } from './smoothie.module';
 import { SmoothieService } from './smoothie.service';
+import { BananaService } from '../banana-module/banana.service';
 
 describe('Smoothie service', () => {
-  let svc: SmoothieService;
+  let bananaService: BananaService;
+  let smoothieService: SmoothieService;
 
   beforeAll(async () => {
     const module = await Test.createTestingModule({
@@ -11,10 +13,15 @@ describe('Smoothie service', () => {
     }).compile();
     await module.init();
 
-    svc = module.get(SmoothieService);
+    bananaService = module.get(BananaService);
+    smoothieService = module.get(SmoothieService);
   });
 
-  it('should have 320 seeds', () => {
-    expect(svc.seeds).toBe(320);
+  it('banana should have 80 seeds', () => {
+    expect(bananaService.seeds).toBe(80);
+  });
+
+  it('smoothie should have 320 seeds', () => {
+    expect(smoothieService.seeds).toBe(320);
   });
 });

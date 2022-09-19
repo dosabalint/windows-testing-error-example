@@ -3,7 +3,7 @@ import { Test } from '@nestjs/testing';
 import { FeatureCiderModule } from './feature-cider.module';
 import { AppleService } from '@windows-testing-error-example/feature-apple/apple.service';
 
-describe('Apple service', () => {
+describe('Cider service', () => {
   let appleService: AppleService;
   let ciderService: CiderService;
 
