@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@windows-testing-error-example/feature-apple": [
+        "libs/feature-apple/src/index.ts"
+      ],
+      "@windows-testing-error-example/feature-banana": [
+        "libs/feature-banana/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

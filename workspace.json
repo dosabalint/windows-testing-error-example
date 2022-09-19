@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "app": "apps/app"
+    "app": "apps/app",
+    "feature-apple": "libs/feature-apple",
+    "feature-banana": "libs/feature-banana"
   }
 }
