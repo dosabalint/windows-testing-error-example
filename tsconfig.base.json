@@ -18,8 +18,14 @@
       "@windows-testing-error-example/feature-apple": [
         "libs/feature-apple/src/index.ts"
       ],
+      "@windows-testing-error-example/feature-apple/*": [
+        "libs/feature-apple/src/lib/*"
+      ],
       "@windows-testing-error-example/feature-banana": [
         "libs/feature-banana/src/index.ts"
+      ],
+      "@windows-testing-error-example/feature-cider": [
+        "libs/feature-cider/src/index.ts"
       ]
     }
   },

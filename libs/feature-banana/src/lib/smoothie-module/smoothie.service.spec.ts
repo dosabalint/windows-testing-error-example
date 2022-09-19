@@ -14,7 +14,7 @@ describe('Smoothie service', () => {
     svc = module.get(SmoothieService);
   });
 
-  it('should have 8 seeds', () => {
+  it('should have 320 seeds', () => {
     expect(svc.seeds).toBe(320);
   });
 });

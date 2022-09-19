@@ -14,7 +14,7 @@ describe('Banana service', () => {
     svc = module.get(BananaService);
   });
 
-  it('should have 8 seeds', () => {
+  it('should have 80 seeds', () => {
     expect(svc.seeds).toBe(80);
   });
 });

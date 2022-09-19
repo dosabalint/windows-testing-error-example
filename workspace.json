@@ -4,6 +4,7 @@
   "projects": {
     "app": "apps/app",
     "feature-apple": "libs/feature-apple",
-    "feature-banana": "libs/feature-banana"
+    "feature-banana": "libs/feature-banana",
+    "feature-cider": "libs/feature-cider"
   }
 }
