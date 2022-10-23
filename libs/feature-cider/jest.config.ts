@@ -13,4 +13,7 @@ export default {
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../../coverage/libs/feature-cider',
+  moduleNameMapper: {
+    '@windows-testing-error-example/feature-apple/(.*)': "<rootDir>../../libs/feature-apple/src/lib/$1"
+  },
 };
